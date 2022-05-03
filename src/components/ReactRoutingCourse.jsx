@@ -6,7 +6,7 @@ const ReactRoutingCourse = () => {
   return (
     <div>
       <title>ReactRoutingCourse</title>
-      <h1>ReactRoutingCourse</h1>
+      <h1>React Routing Course</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
