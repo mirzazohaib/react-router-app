@@ -1,8 +1,5 @@
 import React from "react";
-import ReactCourse from "./ReactCourse";
-import ReactRoutingCourse from "./ReactRoutingCourse";
-import ReduxCourse from "./ReduxCourse";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Course = () => {
   return (
@@ -31,11 +28,6 @@ const Course = () => {
           </li>
         </ul>
       </nav>
-      <Routes>
-        <Route path="/ReactCourse" element={<ReactCourse />} />
-        <Route path="/ReduxCourse" element={<ReduxCourse />} />
-        <Route path="/ReactRoutingCourse" element={<ReactRoutingCourse />} />
-      </Routes>
     </div>
   );
 };

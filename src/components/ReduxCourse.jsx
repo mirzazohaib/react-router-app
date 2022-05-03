@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ReduxCourse = () => {
+  let navigate = useNavigate();
   return (
     <div>
       <title>ReduxCourse</title>
@@ -14,6 +16,15 @@ const ReduxCourse = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
+      <div>
+        <button
+          onClick={() => {
+            navigate("/Course");
+          }}
+        >
+          Click to go back to Course page
+        </button>
+      </div>
     </div>
   );
 };
